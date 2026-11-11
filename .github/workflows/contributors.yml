@@ -29,7 +29,7 @@ jobs:
         run: npx all-contributors-cli generate
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v7.2.0 # v5.0.1
+        uses: stefanzweifel/git-auto-commit-action@v7.2.1 # v5.0.1
         with:
           commit_message: "docs: update contributors table [skip ci]"
           file_pattern: README.md
